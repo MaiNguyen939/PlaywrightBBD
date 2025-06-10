@@ -1,0 +1,1821 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "shopping-cart-functionality;contact-us-form",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Contact Us Form",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 61654778699,
+              "error_message": "Error: function timed out, ensure the promise resolves within 60000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\mainguyen\\Documents\\Playwright\\PlaywrightWithBDD\\node_modules\\@cucumber\\cucumber\\lib\\time.js:54:20)\n    at listOnTimeout (node:internal/timers:569:17)\n    at process.processTimers (node:internal/timers:512:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Launch browser",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:12"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "Navigate to url",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:16"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Verify that \"Home\" is visible",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:116"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "Click \"Contact Us\" button",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:52"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "Verify that \"Get In Touch\" is visible",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:116"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "Enter name, email, subject and message",
+            "match": {
+              "location": "tests\\steps\\homepage.step.js:8"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Upload file \"contact_us.txt\"",
+            "match": {
+              "location": "tests\\steps\\homepage.step.js:25"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "Click \"Submit\" button",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:52"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "Click OK button on alert dialog",
+            "match": {
+              "location": "tests\\steps\\homepage.step.js:30"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "Verify success message \"Success! Your details have been submitted successfully.\" is visible",
+            "match": {
+              "location": "tests\\steps\\homepage.step.js:40"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "Click \"Home\" button",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:52"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "Verify that \"Home\" is visible",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:116"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 65398800
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ShoppingCart",
+            "line": 1
+          },
+          {
+            "name": "@contact_us",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "shopping-cart-functionality;verify-all-products-and-product-detail-page",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Verify All Products and product detail page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 61300643000,
+              "error_message": "Error: function timed out, ensure the promise resolves within 60000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\mainguyen\\Documents\\Playwright\\PlaywrightWithBDD\\node_modules\\@cucumber\\cucumber\\lib\\time.js:54:20)\n    at listOnTimeout (node:internal/timers:569:17)\n    at process.processTimers (node:internal/timers:512:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "Launch browser",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:12"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "Navigate to url",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:16"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "Verify that \"Home\" is visible",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:116"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "Click \"Products\" button",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:52"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "Verify user is navigated to \"All Products\" page successfully",
+            "match": {
+              "location": "tests\\steps\\homepage.step.js:75"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "The products list is visible",
+            "match": {
+              "location": "tests\\steps\\homepage.step.js:63"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "Click \"View First Product\" button",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:52"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "User is landed to product detail page",
+            "match": {
+              "location": "tests\\steps\\homepage.step.js:80"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "Verify that detail is visible: product name, category, price, availability, condition, brand",
+            "match": {
+              "location": "tests\\steps\\homepage.step.js:47"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 83565699
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ShoppingCart",
+            "line": 1
+          },
+          {
+            "name": "@all_product",
+            "line": 19
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "shopping-cart-functionality;verify-all-products-and-product-detail-page",
+        "keyword": "Scenario",
+        "line": 33,
+        "name": "Verify All Products and product detail page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 60371192799,
+              "error_message": "Error: function timed out, ensure the promise resolves within 60000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\mainguyen\\Documents\\Playwright\\PlaywrightWithBDD\\node_modules\\@cucumber\\cucumber\\lib\\time.js:54:20)\n    at listOnTimeout (node:internal/timers:569:17)\n    at process.processTimers (node:internal/timers:512:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 34,
+            "name": "Launch browser",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:12"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 35,
+            "name": "Navigate to url",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:16"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "Verify that \"Home\" is visible",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:116"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 37,
+            "name": "Click \"Products\" button",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:52"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "Verify user is navigated to \"All Products\" page successfully",
+            "match": {
+              "location": "tests\\steps\\homepage.step.js:75"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 39,
+            "name": "Enter product name in search input \"Blue\" and click search button",
+            "match": {
+              "location": "tests\\steps\\homepage.step.js:35"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 40,
+            "name": "Verify user is navigated to \"Searched Products\" page successfully",
+            "match": {
+              "location": "tests\\steps\\homepage.step.js:75"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 41,
+            "name": "Verify all the products related to search \"Blue\" are visible",
+            "match": {
+              "location": "tests\\steps\\homepage.step.js:90"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 42,
+            "name": "Enter input value from \"productSearchTerms.xlsx\" data with \"Search\" Sheet and \"Invalid Search\" Column",
+            "match": {
+              "location": "tests\\steps\\homepage.step.js:109"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 43,
+            "name": "Verify no products found",
+            "match": {
+              "location": "tests\\steps\\homepage.step.js:122"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 317617600
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ShoppingCart",
+            "line": 1
+          },
+          {
+            "name": "@search_product",
+            "line": 32
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "shopping-cart-functionality;verify-all-products-and-product-detail-page",
+        "keyword": "Scenario",
+        "line": 46,
+        "name": "Verify All Products and product detail page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 60029887099,
+              "error_message": "Error: function timed out, ensure the promise resolves within 60000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\mainguyen\\Documents\\Playwright\\PlaywrightWithBDD\\node_modules\\@cucumber\\cucumber\\lib\\time.js:54:20)\n    at listOnTimeout (node:internal/timers:569:17)\n    at process.processTimers (node:internal/timers:512:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 47,
+            "name": "Launch browser",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:12"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 48,
+            "name": "Navigate to url",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:16"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 49,
+            "name": "Verify that \"Home\" is visible",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:116"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 50,
+            "name": "Scroll down to footer",
+            "match": {
+              "location": "tests\\steps\\homepage.step.js:132"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 51,
+            "name": "Verify that \"Subscription\" is visible",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:116"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 52,
+            "name": "Enter email address in input and click arrow button",
+            "match": {
+              "location": "tests\\steps\\homepage.step.js:136"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 53,
+            "name": "Verify success message \"You have been successfully subscribed!\" is visible",
+            "match": {
+              "location": "tests\\steps\\homepage.step.js:40"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 60097017099,
+              "error_message": "Error: function timed out, ensure the promise resolves within 60000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\mainguyen\\Documents\\Playwright\\PlaywrightWithBDD\\node_modules\\@cucumber\\cucumber\\lib\\time.js:54:20)\n    at listOnTimeout (node:internal/timers:569:17)\n    at process.processTimers (node:internal/timers:512:7)"
+            },
+            "embeddings": [
+              {
+                "data": "iVBORw0KGgoAAAANSUhEUgAACgAAAAT5CAIAAACQlN8DAAAAAXNSR0IArs4c6QAAIABJREFUeJzs2cENwCAQwLDS/Xc+lkBCRPYE+WfNzAcAAAAAAADA+/7bAQAAAAAAAACcYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAMBmzw5kAAAAAAb5W9/jK42ACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAACUWJmcAAAQXklEQVQAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAABqzw5kAAAAAAb5W9/jK40mBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwEnIcM7+TQ+yEAAAAASUVORK5CYII=",
+                "mime_type": "image/png"
+              }
+            ]
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ShoppingCart",
+            "line": 1
+          },
+          {
+            "name": "@flaky",
+            "line": 45
+          },
+          {
+            "name": "@subscription_home",
+            "line": 45
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "shopping-cart-functionality",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Shopping Cart Functionality",
+    "tags": [
+      {
+        "name": "@ShoppingCart",
+        "line": 1
+      }
+    ],
+    "uri": "tests\\features\\homepage.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "shopping-cart-functionality;login-user-with-correct-email-and-password",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Login User with correct email and password",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 60710144399,
+              "error_message": "Error: function timed out, ensure the promise resolves within 60000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\mainguyen\\Documents\\Playwright\\PlaywrightWithBDD\\node_modules\\@cucumber\\cucumber\\lib\\time.js:54:20)\n    at listOnTimeout (node:internal/timers:569:17)\n    at process.processTimers (node:internal/timers:512:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Launch browser",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:12"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Navigate to url",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:16"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Click \"Signup/Login\" button",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:52"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Verify that \"New User Signup!\" is visible",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:116"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "Enter name and email address",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:24"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "Click \"Signup\" button",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:52"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "Fill details: Title, Name, Email, Password, Date of birth",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:77"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Select checkbox \"Sign up for our newsletter!\"",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:112"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "Select checkbox \"Receive special offers from our partners!\"",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:112"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "Fill details: First name, Last name, Company, Address, Address2, Country, State, City, Zipcode, Mobile Number",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:89"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "Click \"Create Account\" button",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:52"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "Verify that \"Account Created!\" is visible",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:116"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "Click \"Continue\" button",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:52"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "Click \"Logout\" button",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:52"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "Launch browser",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:12"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 23,
+            "name": "Navigate to url",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:16"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "Verify that \"Home\" is visible",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:116"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "Click \"Signup/Login\" button",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:52"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "Verify that \"Login to your account\" is visible",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:116"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "Enter email address and password",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:35"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "Click \"Login\" button",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:52"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "Verify that Logged in as is visible",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:121"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 30,
+            "name": "Click \"Delete Account\" button",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:52"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "Verify that \"Account Deleted!\" is visible",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:116"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 32,
+            "name": "Click \"Continue\" button",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:52"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 58873300
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ShoppingCart",
+            "line": 1
+          },
+          {
+            "name": "@login_valid",
+            "line": 20
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "shopping-cart-functionality;login-user-with-incorrect-email-and-password",
+        "keyword": "Scenario",
+        "line": 35,
+        "name": "Login User with incorrect email and password",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 60119833399,
+              "error_message": "Error: function timed out, ensure the promise resolves within 60000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\mainguyen\\Documents\\Playwright\\PlaywrightWithBDD\\node_modules\\@cucumber\\cucumber\\lib\\time.js:54:20)\n    at listOnTimeout (node:internal/timers:569:17)\n    at process.processTimers (node:internal/timers:512:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Launch browser",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:12"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Navigate to url",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:16"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Click \"Signup/Login\" button",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:52"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Verify that \"New User Signup!\" is visible",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:116"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "Enter name and email address",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:24"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "Click \"Signup\" button",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:52"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "Fill details: Title, Name, Email, Password, Date of birth",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:77"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Select checkbox \"Sign up for our newsletter!\"",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:112"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "Select checkbox \"Receive special offers from our partners!\"",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:112"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "Fill details: First name, Last name, Company, Address, Address2, Country, State, City, Zipcode, Mobile Number",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:89"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "Click \"Create Account\" button",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:52"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "Verify that \"Account Created!\" is visible",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:116"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "Click \"Continue\" button",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:52"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "Click \"Logout\" button",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:52"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 36,
+            "name": "Launch browser",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:12"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 37,
+            "name": "Navigate to url",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:16"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "Verify that \"Home\" is visible",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:116"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 39,
+            "name": "Click \"Signup/Login\" button",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:52"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 40,
+            "name": "Verify that \"Login to your account\" is visible",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:116"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 41,
+            "name": "Enter incorrect name and email address",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:42"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 42,
+            "name": "Click \"Login\" button",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:52"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 43,
+            "name": "Verify error \"Your email or password is incorrect!\" is visible",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:128"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 31511699
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ShoppingCart",
+            "line": 1
+          },
+          {
+            "name": "@login_invalid",
+            "line": 34
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "shopping-cart-functionality",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Shopping Cart Functionality",
+    "tags": [
+      {
+        "name": "@ShoppingCart",
+        "line": 1
+      }
+    ],
+    "uri": "tests\\features\\loginpage.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "shopping-cart-functionality;register-new-user-to-homepage-successfully",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Register new user to homepage successfully",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 60053025199,
+              "error_message": "Error: function timed out, ensure the promise resolves within 60000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\mainguyen\\Documents\\Playwright\\PlaywrightWithBDD\\node_modules\\@cucumber\\cucumber\\lib\\time.js:54:20)\n    at listOnTimeout (node:internal/timers:569:17)\n    at process.processTimers (node:internal/timers:512:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Launch browser",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:12"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "Navigate to url",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:16"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Verify that \"Home\" is visible",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:116"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "Click \"Signup/Login\" button",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:52"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "Verify that \"New User Signup!\" is visible",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:116"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "Enter name and email address",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:24"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Click \"Signup\" button",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:52"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Verify that \"Enter Account Information\" is visible",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:116"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "Fill details: Title, Name, Email, Password, Date of birth",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:77"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "Select checkbox \"Sign up for our newsletter!\"",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:112"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "Select checkbox \"Receive special offers from our partners!\"",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:112"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "Fill details: First name, Last name, Company, Address, Address2, Country, State, City, Zipcode, Mobile Number",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:89"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "Click \"Create Account\" button",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:52"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "Verify that \"Account Created!\" is visible",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:116"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "Click \"Continue\" button",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:52"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "Verify that Logged in as is visible",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:121"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "Click \"Delete Account\" button",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:52"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "Verify that \"Account Deleted!\" is visible",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:116"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "Click \"Continue\" button",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:52"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 71296664100,
+              "error_message": "Error: function timed out, ensure the promise resolves within 60000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\mainguyen\\Documents\\Playwright\\PlaywrightWithBDD\\node_modules\\@cucumber\\cucumber\\lib\\time.js:54:20)\n    at listOnTimeout (node:internal/timers:569:17)\n    at process.processTimers (node:internal/timers:512:7)"
+            },
+            "embeddings": [
+              {
+                "data": "iVBORw0KGgoAAAANSUhEUgAACgAAAAT5CAIAAACQlN8DAAAAAXNSR0IArs4c6QAAIABJREFUeJzs2cENwCAQwLDS/Xc+lkBCRPYE+WfNzAcAAAAAAADA+/7bAQAAAAAAAACcYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAAAQYQADAAAAAAAARBjAAAAAAAAAABEGMAAAAAAAAECEAQwAAAAAAMBmzw5kAAAAAAb5W9/jK42ACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAACUWJmcAAAQXklEQVQAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAABqzw5kAAAAAAb5W9/jK40mBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwEnIcM7+TQ+yEAAAAASUVORK5CYII=",
+                "mime_type": "image/png"
+              }
+            ]
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ShoppingCart",
+            "line": 1
+          },
+          {
+            "name": "@register",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "shopping-cart-functionality;register-user-with-existing-email",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Register User with existing email",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 60012181199,
+              "error_message": "Error: function timed out, ensure the promise resolves within 60000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\mainguyen\\Documents\\Playwright\\PlaywrightWithBDD\\node_modules\\@cucumber\\cucumber\\lib\\time.js:54:20)\n    at listOnTimeout (node:internal/timers:569:17)\n    at process.processTimers (node:internal/timers:512:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 28,
+            "name": "Launch browser",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:12"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 29,
+            "name": "Navigate to url",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:16"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "Verify that \"Home\" is visible",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:116"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "Click \"Signup/Login\" button",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:52"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "Verify that \"New User Signup!\" is visible",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:116"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 33,
+            "name": "Enter existing name and email address",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:47"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "Click \"Signup\" button",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:52"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "Verify error \"Email Address already exist!\" is visible",
+            "match": {
+              "location": "tests\\steps\\registerpage.step.js:128"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 60719875200,
+              "error_message": "Error: function timed out, ensure the promise resolves within 60000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\mainguyen\\Documents\\Playwright\\PlaywrightWithBDD\\node_modules\\@cucumber\\cucumber\\lib\\time.js:54:20)\n    at listOnTimeout (node:internal/timers:569:17)\n    at process.processTimers (node:internal/timers:512:7)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ShoppingCart",
+            "line": 1
+          },
+          {
+            "name": "@regist_exist",
+            "line": 26
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "shopping-cart-functionality",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Shopping Cart Functionality",
+    "tags": [
+      {
+        "name": "@ShoppingCart",
+        "line": 1
+      }
+    ],
+    "uri": "tests\\features\\registerpage.feature"
+  }
+]

@@ -1,0 +1,50 @@
+{
+    "urls": {
+        "home": "https://rahulshettyacademy.com/client/",
+        "practice": "https://rahulshettyacademy.com/loginpagePractise/",
+        "cart": "https://automationexercise.com/"
+    },
+    "users": {
+        "student": {
+            "username": "rahulshettyacademy",
+            "password": "learning"
+        },
+        "newUser": {
+            "name": "Olivia Rodrigo",
+            "email": "oliviarodrigo{NUM}@gmail.com",
+            "password": "Password1@3",
+            "title": "Mrs",
+            "dateOfBirth": "01 January 1990",
+            "address": {
+                "firstName": "Olivia",
+                "lastName": "Rodrigo",
+                "company": "The Hutt",
+                "address1": "123 Main St",
+                "address2": "Apt 4B",
+                "country": "United States",
+                "city": "Los Angeles",
+                "state": "California",
+                "zipCode": "90001",
+                "phoneNumber": "+1234567890"
+            }
+        },
+        "existingUser": {
+            "email": "Oliviarodrigo@gmail.com",
+            "password": "Password1@3",
+            "name": "Olivia Rodrigo"
+        },
+        "incorrectUser": {
+            "email": "OliviArodrigo@gmail.com",
+            "password": "Password123"
+        },
+        "emailSubscription":{
+            "email": "Oliviarodrigo@gmail.com"
+        }
+    },
+    "contactUs": {
+        "name": "Olivia Rodrigo",
+        "email": "Oliviarodrigo@gmail.com",
+        "subject": "Feedback",
+        "message": "This is a test message for the contact us form."
+    }
+}

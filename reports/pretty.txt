@@ -1,0 +1,599 @@
+@ShoppingCart
+Feature: Shopping Cart Functionality # tests\features\homepage.feature:2
+
+  @ShoppingCart @contact_us
+  Scenario: Contact Us Form # tests\features\homepage.feature:5
+  @ShoppingCart @all_product
+  Scenario: Verify All Products and product detail page # tests\features\homepage.feature:20
+  @ShoppingCart @search_product
+  Scenario: Verify All Products and product detail page # tests\features\homepage.feature:33
+    × failed
+      Error: function timed out, ensure the promise resolves within 60000 milliseconds
+          at Timeout.<anonymous> (C:\Users\mainguyen\Documents\Playwright\PlaywrightWithBDD\node_modules\@cucumber\cucumber\lib\time.js:54:20)
+          at listOnTimeout (node:internal/timers:569:17)
+          at process.processTimers (node:internal/timers:512:7)
+    Given Launch browser
+    - skipped
+    Given Navigate to url
+    - skipped
+    Then Verify that "Home" is visible
+    - skipped
+    When Click "Products" button
+    - skipped
+    Then Verify user is navigated to "All Products" page successfully
+    - skipped
+    Then The products list is visible
+    - skipped
+    When Click "View First Product" button
+    - skipped
+    Then User is landed to product detail page
+    - skipped
+    Then Verify that detail is visible: product name, category, price, availability, condition, brand
+    - skipped
+    × failed
+      Error: function timed out, ensure the promise resolves within 60000 milliseconds
+          at Timeout.<anonymous> (C:\Users\mainguyen\Documents\Playwright\PlaywrightWithBDD\node_modules\@cucumber\cucumber\lib\time.js:54:20)
+          at listOnTimeout (node:internal/timers:569:17)
+          at process.processTimers (node:internal/timers:512:7)
+    Given Launch browser
+    - skipped
+    Given Navigate to url
+    - skipped
+    Then Verify that "Home" is visible
+    - skipped
+    When Click "Contact Us" button
+    - skipped
+    Then Verify that "Get In Touch" is visible
+    - skipped
+    When Enter name, email, subject and message
+    - skipped
+    When Upload file "contact_us.txt"
+    - skipped
+    When Click "Submit" button
+    - skipped
+    When Click OK button on alert dialog
+    - skipped
+    Then Verify success message "Success! Your details have been submitted successfully." is visible
+    - skipped
+    When Click "Home" button
+    - skipped
+    Then Verify that "Home" is visible
+    - skipped
+
+
+  @ShoppingCart @flaky @subscription_home
+  Scenario: Verify All Products and product detail page # tests\features\homepage.feature:46
+@ShoppingCart
+Feature: Shopping Cart Functionality # tests\features\loginpage.feature:2
+
+  @ShoppingCart @login_valid
+  Scenario: Login User with correct email and password # tests\features\loginpage.feature:21
+    × failed
+      Error: function timed out, ensure the promise resolves within 60000 milliseconds
+          at Timeout.<anonymous> (C:\Users\mainguyen\Documents\Playwright\PlaywrightWithBDD\node_modules\@cucumber\cucumber\lib\time.js:54:20)
+          at listOnTimeout (node:internal/timers:569:17)
+          at process.processTimers (node:internal/timers:512:7)
+    Given Launch browser
+    - skipped
+    Given Navigate to url
+    - skipped
+    Then Verify that "Home" is visible
+    - skipped
+    When Click "Products" button
+    - skipped
+    Then Verify user is navigated to "All Products" page successfully
+    - skipped
+    When Enter product name in search input "Blue" and click search button
+    - skipped
+    Then Verify user is navigated to "Searched Products" page successfully
+    - skipped
+    Then Verify all the products related to search "Blue" are visible
+    - skipped
+    When Enter input value from "productSearchTerms.xlsx" data with "Search" Sheet and "Invalid Search" Column
+    - skipped
+    Then Verify no products found
+    - skipped
+
+  @ShoppingCart @login_invalid
+  Scenario: Login User with incorrect email and password # tests\features\loginpage.feature:35
+    × failed
+      Error: function timed out, ensure the promise resolves within 60000 milliseconds
+          at Timeout.<anonymous> (C:\Users\mainguyen\Documents\Playwright\PlaywrightWithBDD\node_modules\@cucumber\cucumber\lib\time.js:54:20)
+          at listOnTimeout (node:internal/timers:569:17)
+          at process.processTimers (node:internal/timers:512:7)
+    Given Launch browser
+    - skipped
+    Given Navigate to url
+    - skipped
+    Then Verify that "Home" is visible
+    - skipped
+    When Scroll down to footer
+    - skipped
+    Then Verify that "Subscription" is visible
+    - skipped
+    When Enter email address in input and click arrow button
+    - skipped
+    Then Verify success message "You have been successfully subscribed!" is visible
+    - skipped
+
+@ShoppingCart
+Feature: Shopping Cart Functionality # tests\features\homepage.feature:2
+
+  @ShoppingCart @flaky @subscription_home
+  Scenario: Verify All Products and product detail page # tests\features\homepage.feature:46
+    × failed
+      Error: function timed out, ensure the promise resolves within 60000 milliseconds
+          at Timeout.<anonymous> (C:\Users\mainguyen\Documents\Playwright\PlaywrightWithBDD\node_modules\@cucumber\cucumber\lib\time.js:54:20)
+          at listOnTimeout (node:internal/timers:569:17)
+          at process.processTimers (node:internal/timers:512:7)
+    Given Launch browser
+    - skipped
+    Given Navigate to url
+    - skipped
+    When Click "Signup/Login" button
+    - skipped
+    Then Verify that "New User Signup!" is visible
+    - skipped
+    When Enter name and email address
+    - skipped
+    When Click "Signup" button
+    - skipped
+    When Fill details: Title, Name, Email, Password, Date of birth
+    - skipped
+    When Select checkbox "Sign up for our newsletter!"
+    - skipped
+    When Select checkbox "Receive special offers from our partners!"
+    - skipped
+    When Fill details: First name, Last name, Company, Address, Address2, Country, State, City, Zipcode, Mobile Number
+    - skipped
+    When Click "Create Account" button
+    - skipped
+    Then Verify that "Account Created!" is visible
+    - skipped
+    When Click "Continue" button
+    - skipped
+    When Click "Logout" button
+    - skipped
+    Given Launch browser
+    - skipped
+    Given Navigate to url
+    - skipped
+    Then Verify that "Home" is visible
+    - skipped
+    When Click "Signup/Login" button
+    - skipped
+    Then Verify that "Login to your account" is visible
+    - skipped
+    When Enter email address and password
+    - skipped
+    When Click "Login" button
+    - skipped
+    Then Verify that Logged in as is visible
+    - skipped
+    When Click "Delete Account" button
+    - skipped
+    Then Verify that "Account Deleted!" is visible
+    - skipped
+    When Click "Continue" button
+    - skipped
+
+@ShoppingCart
+Feature: Shopping Cart Functionality # tests\features\registerpage.feature:2
+
+  @ShoppingCart @register
+  Scenario: Register new user to homepage successfully # tests\features\registerpage.feature:5
+    × failed
+      Error: function timed out, ensure the promise resolves within 60000 milliseconds
+          at Timeout.<anonymous> (C:\Users\mainguyen\Documents\Playwright\PlaywrightWithBDD\node_modules\@cucumber\cucumber\lib\time.js:54:20)
+          at listOnTimeout (node:internal/timers:569:17)
+          at process.processTimers (node:internal/timers:512:7)
+    Given Launch browser
+    - skipped
+    Given Navigate to url
+    - skipped
+    When Click "Signup/Login" button
+    - skipped
+    Then Verify that "New User Signup!" is visible
+    - skipped
+    When Enter name and email address
+    - skipped
+    When Click "Signup" button
+    - skipped
+    When Fill details: Title, Name, Email, Password, Date of birth
+    - skipped
+    When Select checkbox "Sign up for our newsletter!"
+    - skipped
+    When Select checkbox "Receive special offers from our partners!"
+    - skipped
+    When Fill details: First name, Last name, Company, Address, Address2, Country, State, City, Zipcode, Mobile Number
+    - skipped
+    When Click "Create Account" button
+    - skipped
+    Then Verify that "Account Created!" is visible
+    - skipped
+    When Click "Continue" button
+    - skipped
+    When Click "Logout" button
+    - skipped
+    Given Launch browser
+    - skipped
+    Given Navigate to url
+    - skipped
+    Then Verify that "Home" is visible
+    - skipped
+    When Click "Signup/Login" button
+    - skipped
+    Then Verify that "Login to your account" is visible
+    - skipped
+    When Enter incorrect name and email address
+    - skipped
+    When Click "Login" button
+    - skipped
+    Then Verify error "Your email or password is incorrect!" is visible
+    - skipped
+
+  @ShoppingCart @regist_exist
+  Scenario: Register User with existing email # tests\features\registerpage.feature:27
+    × failed
+      Error: function timed out, ensure the promise resolves within 60000 milliseconds
+          at Timeout.<anonymous> (C:\Users\mainguyen\Documents\Playwright\PlaywrightWithBDD\node_modules\@cucumber\cucumber\lib\time.js:54:20)
+          at listOnTimeout (node:internal/timers:569:17)
+          at process.processTimers (node:internal/timers:512:7)
+    Given Launch browser
+    - skipped
+    Given Navigate to url
+    - skipped
+    Then Verify that "Home" is visible
+    - skipped
+    When Scroll down to footer
+    - skipped
+    Then Verify that "Subscription" is visible
+    - skipped
+    When Enter email address in input and click arrow button
+    - skipped
+    Then Verify success message "You have been successfully subscribed!" is visible
+    - skipped
+    × failed
+      Error: function timed out, ensure the promise resolves within 60000 milliseconds
+          at Timeout.<anonymous> (C:\Users\mainguyen\Documents\Playwright\PlaywrightWithBDD\node_modules\@cucumber\cucumber\lib\time.js:54:20)
+          at listOnTimeout (node:internal/timers:569:17)
+          at process.processTimers (node:internal/timers:512:7)
+    Given Launch browser
+    - skipped
+    Given Navigate to url
+    - skipped
+    Then Verify that "Home" is visible
+    - skipped
+    When Click "Signup/Login" button
+    - skipped
+    Then Verify that "New User Signup!" is visible
+    - skipped
+    When Enter name and email address
+    - skipped
+    When Click "Signup" button
+    - skipped
+    Then Verify that "Enter Account Information" is visible
+    - skipped
+    When Fill details: Title, Name, Email, Password, Date of birth
+    - skipped
+    When Select checkbox "Sign up for our newsletter!"
+    - skipped
+    When Select checkbox "Receive special offers from our partners!"
+    - skipped
+    When Fill details: First name, Last name, Company, Address, Address2, Country, State, City, Zipcode, Mobile Number
+    - skipped
+    When Click "Create Account" button
+    - skipped
+    Then Verify that "Account Created!" is visible
+    - skipped
+    When Click "Continue" button
+    - skipped
+    Then Verify that Logged in as is visible
+    - skipped
+    When Click "Delete Account" button
+    - skipped
+    Then Verify that "Account Deleted!" is visible
+    - skipped
+    When Click "Continue" button
+    - skipped
+    × failed
+      Error: function timed out, ensure the promise resolves within 60000 milliseconds
+          at Timeout.<anonymous> (C:\Users\mainguyen\Documents\Playwright\PlaywrightWithBDD\node_modules\@cucumber\cucumber\lib\time.js:54:20)
+          at listOnTimeout (node:internal/timers:569:17)
+          at process.processTimers (node:internal/timers:512:7)
+    Given Launch browser
+    - skipped
+    Given Navigate to url
+    - skipped
+    Then Verify that "Home" is visible
+    - skipped
+    When Click "Signup/Login" button
+    - skipped
+    Then Verify that "New User Signup!" is visible
+    - skipped
+    When Enter existing name and email address
+    - skipped
+    When Click "Signup" button
+    - skipped
+    Then Verify error "Email Address already exist!" is visible
+    - skipped
+    × failed
+      Error: function timed out, ensure the promise resolves within 60000 milliseconds
+          at Timeout.<anonymous> (C:\Users\mainguyen\Documents\Playwright\PlaywrightWithBDD\node_modules\@cucumber\cucumber\lib\time.js:54:20)
+          at listOnTimeout (node:internal/timers:569:17)
+          at process.processTimers (node:internal/timers:512:7)
+
+    × failed
+      Error: function timed out, ensure the promise resolves within 60000 milliseconds
+          at Timeout.<anonymous> (C:\Users\mainguyen\Documents\Playwright\PlaywrightWithBDD\node_modules\@cucumber\cucumber\lib\time.js:54:20)
+          at listOnTimeout (node:internal/timers:569:17)
+          at process.processTimers (node:internal/timers:512:7)
+
+    × failed
+      Error: function timed out, ensure the promise resolves within 60000 milliseconds
+          at Timeout.<anonymous> (C:\Users\mainguyen\Documents\Playwright\PlaywrightWithBDD\node_modules\@cucumber\cucumber\lib\time.js:54:20)
+          at listOnTimeout (node:internal/timers:569:17)
+          at process.processTimers (node:internal/timers:512:7)
+
+@ShoppingCart
+Feature: Shopping Cart Functionality # tests\features\homepage.feature:2
+
+  @ShoppingCart @flaky @subscription_home
+  Scenario: Verify All Products and product detail page # tests\features\homepage.feature:46
+    × failed
+      Error: function timed out, ensure the promise resolves within 60000 milliseconds
+          at Timeout.<anonymous> (C:\Users\mainguyen\Documents\Playwright\PlaywrightWithBDD\node_modules\@cucumber\cucumber\lib\time.js:54:20)
+          at listOnTimeout (node:internal/timers:569:17)
+          at process.processTimers (node:internal/timers:512:7)
+    Given Launch browser
+    - skipped
+    Given Navigate to url
+    - skipped
+    Then Verify that "Home" is visible
+    - skipped
+    When Scroll down to footer
+    - skipped
+    Then Verify that "Subscription" is visible
+    - skipped
+    When Enter email address in input and click arrow button
+    - skipped
+    Then Verify success message "You have been successfully subscribed!" is visible
+    - skipped
+    × failed
+      Error: function timed out, ensure the promise resolves within 60000 milliseconds
+          at Timeout.<anonymous> (C:\Users\mainguyen\Documents\Playwright\PlaywrightWithBDD\node_modules\@cucumber\cucumber\lib\time.js:54:20)
+          at listOnTimeout (node:internal/timers:569:17)
+          at process.processTimers (node:internal/timers:512:7)
+
+Failures:
+
+1) Scenario: Contact Us Form # tests\features\homepage.feature:5
+   × Before # tests\hooks\hooks.js:22
+       Error: function timed out, ensure the promise resolves within 60000 milliseconds
+           at Timeout.<anonymous> (C:\Users\mainguyen\Documents\Playwright\PlaywrightWithBDD\node_modules\@cucumber\cucumber\lib\time.js:54:20)
+           at listOnTimeout (node:internal/timers:569:17)
+           at process.processTimers (node:internal/timers:512:7)
+   - Given Launch browser # tests\steps\registerpage.step.js:12
+   - Given Navigate to url # tests\steps\registerpage.step.js:16
+   - Then Verify that "Home" is visible # tests\steps\registerpage.step.js:116
+   - When Click "Contact Us" button # tests\steps\registerpage.step.js:52
+   - Then Verify that "Get In Touch" is visible # tests\steps\registerpage.step.js:116
+   - When Enter name, email, subject and message # tests\steps\homepage.step.js:8
+   - When Upload file "contact_us.txt" # tests\steps\homepage.step.js:25
+   - When Click "Submit" button # tests\steps\registerpage.step.js:52
+   - When Click OK button on alert dialog # tests\steps\homepage.step.js:30
+   - Then Verify success message "Success! Your details have been submitted successfully." is visible # tests\steps\homepage.step.js:40
+   - When Click "Home" button # tests\steps\registerpage.step.js:52
+   - Then Verify that "Home" is visible # tests\steps\registerpage.step.js:116
+   √ After # tests\hooks\hooks.js:90
+
+2) Scenario: Verify All Products and product detail page # tests\features\homepage.feature:20
+   × Before # tests\hooks\hooks.js:22
+       Error: function timed out, ensure the promise resolves within 60000 milliseconds
+           at Timeout.<anonymous> (C:\Users\mainguyen\Documents\Playwright\PlaywrightWithBDD\node_modules\@cucumber\cucumber\lib\time.js:54:20)
+           at listOnTimeout (node:internal/timers:569:17)
+           at process.processTimers (node:internal/timers:512:7)
+   - Given Launch browser # tests\steps\registerpage.step.js:12
+   - Given Navigate to url # tests\steps\registerpage.step.js:16
+   - Then Verify that "Home" is visible # tests\steps\registerpage.step.js:116
+   - When Click "Products" button # tests\steps\registerpage.step.js:52
+   - Then Verify user is navigated to "All Products" page successfully # tests\steps\homepage.step.js:75
+   - Then The products list is visible # tests\steps\homepage.step.js:63
+   - When Click "View First Product" button # tests\steps\registerpage.step.js:52
+   - Then User is landed to product detail page # tests\steps\homepage.step.js:80
+   - Then Verify that detail is visible: product name, category, price, availability, condition, brand # tests\steps\homepage.step.js:47
+   √ After # tests\hooks\hooks.js:90
+
+3) Scenario: Verify All Products and product detail page # tests\features\homepage.feature:33
+   × Before # tests\hooks\hooks.js:22
+       Error: function timed out, ensure the promise resolves within 60000 milliseconds
+           at Timeout.<anonymous> (C:\Users\mainguyen\Documents\Playwright\PlaywrightWithBDD\node_modules\@cucumber\cucumber\lib\time.js:54:20)
+           at listOnTimeout (node:internal/timers:569:17)
+           at process.processTimers (node:internal/timers:512:7)
+   - Given Launch browser # tests\steps\registerpage.step.js:12
+   - Given Navigate to url # tests\steps\registerpage.step.js:16
+   - Then Verify that "Home" is visible # tests\steps\registerpage.step.js:116
+   - When Click "Products" button # tests\steps\registerpage.step.js:52
+   - Then Verify user is navigated to "All Products" page successfully # tests\steps\homepage.step.js:75
+   - When Enter product name in search input "Blue" and click search button # tests\steps\homepage.step.js:35
+   - Then Verify user is navigated to "Searched Products" page successfully # tests\steps\homepage.step.js:75
+   - Then Verify all the products related to search "Blue" are visible # tests\steps\homepage.step.js:90
+   - When Enter input value from "productSearchTerms.xlsx" data with "Search" Sheet and "Invalid Search" Column # tests\steps\homepage.step.js:109
+   - Then Verify no products found # tests\steps\homepage.step.js:122
+   √ After # tests\hooks\hooks.js:90
+
+4) Scenario: Login User with correct email and password # tests\features\loginpage.feature:21
+   × Before # tests\hooks\hooks.js:22
+       Error: function timed out, ensure the promise resolves within 60000 milliseconds
+           at Timeout.<anonymous> (C:\Users\mainguyen\Documents\Playwright\PlaywrightWithBDD\node_modules\@cucumber\cucumber\lib\time.js:54:20)
+           at listOnTimeout (node:internal/timers:569:17)
+           at process.processTimers (node:internal/timers:512:7)
+   - Given Launch browser # tests\steps\registerpage.step.js:12
+   - Given Navigate to url # tests\steps\registerpage.step.js:16
+   - When Click "Signup/Login" button # tests\steps\registerpage.step.js:52
+   - Then Verify that "New User Signup!" is visible # tests\steps\registerpage.step.js:116
+   - When Enter name and email address # tests\steps\registerpage.step.js:24
+   - When Click "Signup" button # tests\steps\registerpage.step.js:52
+   - When Fill details: Title, Name, Email, Password, Date of birth # tests\steps\registerpage.step.js:77
+   - When Select checkbox "Sign up for our newsletter!" # tests\steps\registerpage.step.js:112
+   - When Select checkbox "Receive special offers from our partners!" # tests\steps\registerpage.step.js:112
+   - When Fill details: First name, Last name, Company, Address, Address2, Country, State, City, Zipcode, Mobile Number # tests\steps\registerpage.step.js:89
+   - When Click "Create Account" button # tests\steps\registerpage.step.js:52
+   - Then Verify that "Account Created!" is visible # tests\steps\registerpage.step.js:116
+   - When Click "Continue" button # tests\steps\registerpage.step.js:52
+   - When Click "Logout" button # tests\steps\registerpage.step.js:52
+   - Given Launch browser # tests\steps\registerpage.step.js:12
+   - Given Navigate to url # tests\steps\registerpage.step.js:16
+   - Then Verify that "Home" is visible # tests\steps\registerpage.step.js:116
+   - When Click "Signup/Login" button # tests\steps\registerpage.step.js:52
+   - Then Verify that "Login to your account" is visible # tests\steps\registerpage.step.js:116
+   - When Enter email address and password # tests\steps\registerpage.step.js:35
+   - When Click "Login" button # tests\steps\registerpage.step.js:52
+   - Then Verify that Logged in as is visible # tests\steps\registerpage.step.js:121
+   - When Click "Delete Account" button # tests\steps\registerpage.step.js:52
+   - Then Verify that "Account Deleted!" is visible # tests\steps\registerpage.step.js:116
+   - When Click "Continue" button # tests\steps\registerpage.step.js:52
+   √ After # tests\hooks\hooks.js:90
+
+5) Scenario: Login User with incorrect email and password # tests\features\loginpage.feature:35
+   × Before # tests\hooks\hooks.js:22
+       Error: function timed out, ensure the promise resolves within 60000 milliseconds
+           at Timeout.<anonymous> (C:\Users\mainguyen\Documents\Playwright\PlaywrightWithBDD\node_modules\@cucumber\cucumber\lib\time.js:54:20)
+           at listOnTimeout (node:internal/timers:569:17)
+           at process.processTimers (node:internal/timers:512:7)
+   - Given Launch browser # tests\steps\registerpage.step.js:12
+   - Given Navigate to url # tests\steps\registerpage.step.js:16
+   - When Click "Signup/Login" button # tests\steps\registerpage.step.js:52
+   - Then Verify that "New User Signup!" is visible # tests\steps\registerpage.step.js:116
+   - When Enter name and email address # tests\steps\registerpage.step.js:24
+   - When Click "Signup" button # tests\steps\registerpage.step.js:52
+   - When Fill details: Title, Name, Email, Password, Date of birth # tests\steps\registerpage.step.js:77
+   - When Select checkbox "Sign up for our newsletter!" # tests\steps\registerpage.step.js:112
+   - When Select checkbox "Receive special offers from our partners!" # tests\steps\registerpage.step.js:112
+   - When Fill details: First name, Last name, Company, Address, Address2, Country, State, City, Zipcode, Mobile Number # tests\steps\registerpage.step.js:89
+   - When Click "Create Account" button # tests\steps\registerpage.step.js:52
+   - Then Verify that "Account Created!" is visible # tests\steps\registerpage.step.js:116
+   - When Click "Continue" button # tests\steps\registerpage.step.js:52
+   - When Click "Logout" button # tests\steps\registerpage.step.js:52
+   - Given Launch browser # tests\steps\registerpage.step.js:12
+   - Given Navigate to url # tests\steps\registerpage.step.js:16
+   - Then Verify that "Home" is visible # tests\steps\registerpage.step.js:116
+   - When Click "Signup/Login" button # tests\steps\registerpage.step.js:52
+   - Then Verify that "Login to your account" is visible # tests\steps\registerpage.step.js:116
+   - When Enter incorrect name and email address # tests\steps\registerpage.step.js:42
+   - When Click "Login" button # tests\steps\registerpage.step.js:52
+   - Then Verify error "Your email or password is incorrect!" is visible # tests\steps\registerpage.step.js:128
+   √ After # tests\hooks\hooks.js:90
+
+6) Scenario: Register new user to homepage successfully # tests\features\registerpage.feature:5
+   × Before # tests\hooks\hooks.js:22
+       Error: function timed out, ensure the promise resolves within 60000 milliseconds
+           at Timeout.<anonymous> (C:\Users\mainguyen\Documents\Playwright\PlaywrightWithBDD\node_modules\@cucumber\cucumber\lib\time.js:54:20)
+           at listOnTimeout (node:internal/timers:569:17)
+           at process.processTimers (node:internal/timers:512:7)
+   - Given Launch browser # tests\steps\registerpage.step.js:12
+   - Given Navigate to url # tests\steps\registerpage.step.js:16
+   - Then Verify that "Home" is visible # tests\steps\registerpage.step.js:116
+   - When Click "Signup/Login" button # tests\steps\registerpage.step.js:52
+   - Then Verify that "New User Signup!" is visible # tests\steps\registerpage.step.js:116
+   - When Enter name and email address # tests\steps\registerpage.step.js:24
+   - When Click "Signup" button # tests\steps\registerpage.step.js:52
+   - Then Verify that "Enter Account Information" is visible # tests\steps\registerpage.step.js:116
+   - When Fill details: Title, Name, Email, Password, Date of birth # tests\steps\registerpage.step.js:77
+   - When Select checkbox "Sign up for our newsletter!" # tests\steps\registerpage.step.js:112
+   - When Select checkbox "Receive special offers from our partners!" # tests\steps\registerpage.step.js:112
+   - When Fill details: First name, Last name, Company, Address, Address2, Country, State, City, Zipcode, Mobile Number # tests\steps\registerpage.step.js:89
+   - When Click "Create Account" button # tests\steps\registerpage.step.js:52
+   - Then Verify that "Account Created!" is visible # tests\steps\registerpage.step.js:116
+   - When Click "Continue" button # tests\steps\registerpage.step.js:52
+   - Then Verify that Logged in as is visible # tests\steps\registerpage.step.js:121
+   - When Click "Delete Account" button # tests\steps\registerpage.step.js:52
+   - Then Verify that "Account Deleted!" is visible # tests\steps\registerpage.step.js:116
+   - When Click "Continue" button # tests\steps\registerpage.step.js:52
+   × After # tests\hooks\hooks.js:90
+       Attachment (image/png)
+       Error: function timed out, ensure the promise resolves within 60000 milliseconds
+           at Timeout.<anonymous> (C:\Users\mainguyen\Documents\Playwright\PlaywrightWithBDD\node_modules\@cucumber\cucumber\lib\time.js:54:20)
+           at listOnTimeout (node:internal/timers:569:17)
+           at process.processTimers (node:internal/timers:512:7)
+
+7) Scenario: Register User with existing email # tests\features\registerpage.feature:27
+   × Before # tests\hooks\hooks.js:22
+       Error: function timed out, ensure the promise resolves within 60000 milliseconds
+           at Timeout.<anonymous> (C:\Users\mainguyen\Documents\Playwright\PlaywrightWithBDD\node_modules\@cucumber\cucumber\lib\time.js:54:20)
+           at listOnTimeout (node:internal/timers:569:17)
+           at process.processTimers (node:internal/timers:512:7)
+   - Given Launch browser # tests\steps\registerpage.step.js:12
+   - Given Navigate to url # tests\steps\registerpage.step.js:16
+   - Then Verify that "Home" is visible # tests\steps\registerpage.step.js:116
+   - When Click "Signup/Login" button # tests\steps\registerpage.step.js:52
+   - Then Verify that "New User Signup!" is visible # tests\steps\registerpage.step.js:116
+   - When Enter existing name and email address # tests\steps\registerpage.step.js:47
+   - When Click "Signup" button # tests\steps\registerpage.step.js:52
+   - Then Verify error "Email Address already exist!" is visible # tests\steps\registerpage.step.js:128
+   × After # tests\hooks\hooks.js:90
+       Error: function timed out, ensure the promise resolves within 60000 milliseconds
+           at Timeout.<anonymous> (C:\Users\mainguyen\Documents\Playwright\PlaywrightWithBDD\node_modules\@cucumber\cucumber\lib\time.js:54:20)
+           at listOnTimeout (node:internal/timers:569:17)
+           at process.processTimers (node:internal/timers:512:7)
+
+8) Scenario: Verify All Products and product detail page (attempt 3) # tests\features\homepage.feature:46
+   × Before # tests\hooks\hooks.js:22
+       Error: function timed out, ensure the promise resolves within 60000 milliseconds
+           at Timeout.<anonymous> (C:\Users\mainguyen\Documents\Playwright\PlaywrightWithBDD\node_modules\@cucumber\cucumber\lib\time.js:54:20)
+           at listOnTimeout (node:internal/timers:569:17)
+           at process.processTimers (node:internal/timers:512:7)
+   - Given Launch browser # tests\steps\registerpage.step.js:12
+   - Given Navigate to url # tests\steps\registerpage.step.js:16
+   - Then Verify that "Home" is visible # tests\steps\registerpage.step.js:116
+   - When Scroll down to footer # tests\steps\homepage.step.js:132
+   - Then Verify that "Subscription" is visible # tests\steps\registerpage.step.js:116
+   - When Enter email address in input and click arrow button # tests\steps\homepage.step.js:136
+   - Then Verify success message "You have been successfully subscribed!" is visible # tests\steps\homepage.step.js:40
+   × After # tests\hooks\hooks.js:90
+       Attachment (image/png)
+       Error: function timed out, ensure the promise resolves within 60000 milliseconds
+           at Timeout.<anonymous> (C:\Users\mainguyen\Documents\Playwright\PlaywrightWithBDD\node_modules\@cucumber\cucumber\lib\time.js:54:20)
+           at listOnTimeout (node:internal/timers:569:17)
+           at process.processTimers (node:internal/timers:512:7)
+
+Warnings:
+
+1) Scenario: Verify All Products and product detail page (attempt 1, retried) # tests\features\homepage.feature:46
+   × Before # tests\hooks\hooks.js:22
+       Error: function timed out, ensure the promise resolves within 60000 milliseconds
+           at Timeout.<anonymous> (C:\Users\mainguyen\Documents\Playwright\PlaywrightWithBDD\node_modules\@cucumber\cucumber\lib\time.js:54:20)
+           at listOnTimeout (node:internal/timers:569:17)
+           at process.processTimers (node:internal/timers:512:7)
+   - Given Launch browser # tests\steps\registerpage.step.js:12
+   - Given Navigate to url # tests\steps\registerpage.step.js:16
+   - Then Verify that "Home" is visible # tests\steps\registerpage.step.js:116
+   - When Scroll down to footer # tests\steps\homepage.step.js:132
+   - Then Verify that "Subscription" is visible # tests\steps\registerpage.step.js:116
+   - When Enter email address in input and click arrow button # tests\steps\homepage.step.js:136
+   - Then Verify success message "You have been successfully subscribed!" is visible # tests\steps\homepage.step.js:40
+   √ After # tests\hooks\hooks.js:90
+
+2) Scenario: Verify All Products and product detail page (attempt 2, retried) # tests\features\homepage.feature:46
+   × Before # tests\hooks\hooks.js:22
+       Error: function timed out, ensure the promise resolves within 60000 milliseconds
+           at Timeout.<anonymous> (C:\Users\mainguyen\Documents\Playwright\PlaywrightWithBDD\node_modules\@cucumber\cucumber\lib\time.js:54:20)
+           at listOnTimeout (node:internal/timers:569:17)
+           at process.processTimers (node:internal/timers:512:7)
+   - Given Launch browser # tests\steps\registerpage.step.js:12
+   - Given Navigate to url # tests\steps\registerpage.step.js:16
+   - Then Verify that "Home" is visible # tests\steps\registerpage.step.js:116
+   - When Scroll down to footer # tests\steps\homepage.step.js:132
+   - Then Verify that "Subscription" is visible # tests\steps\registerpage.step.js:116
+   - When Enter email address in input and click arrow button # tests\steps\homepage.step.js:136
+   - Then Verify success message "You have been successfully subscribed!" is visible # tests\steps\homepage.step.js:40
+   × After # tests\hooks\hooks.js:90
+       Attachment (image/png)
+       Error: function timed out, ensure the promise resolves within 60000 milliseconds
+           at Timeout.<anonymous> (C:\Users\mainguyen\Documents\Playwright\PlaywrightWithBDD\node_modules\@cucumber\cucumber\lib\time.js:54:20)
+           at listOnTimeout (node:internal/timers:569:17)
+           at process.processTimers (node:internal/timers:512:7)
+
+8 scenarios (8 failed)
+112 steps (112 skipped)
+11m06.921s (executing steps: 14m32.912s)
