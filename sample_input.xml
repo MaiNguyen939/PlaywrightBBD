@@ -1,0 +1,37 @@
+<Records>
+    <Record Type="HDR">
+      <Field>
+        <FieldName Value="MessageType" />
+        <FieldValue Value="INVOIC" />
+        <FieldFormat Value="a..60" />
+      </Field>
+      <Field>
+        <FieldName Value="MessageSeqNr" />
+        <FieldValue Value="84992" />
+        <FieldFormat Value="a..60" />
+      </Field>
+      <Field>
+        <FieldName Value="INVOICE.IVC_Nr" />
+        <FieldValue Value="702383313" />
+        <FieldFormat Value="a..60" />
+      </Field>
+      <Field>
+        <FieldName Value="INVOICE.IVC_Date" />
+        <FieldValue Value="20250821" />
+        <FieldFormat Value="a..60" />
+        <DateFormat Value="102" />
+      </Field>
+    </Record>
+    <Record Type="LIN">
+      <Field>
+        <FieldName Value="LineItemNr" />
+        <FieldValue Value="1" />
+        <FieldFormat Value="n..6" />
+      </Field>
+      <Field>
+        <FieldName Value="ArticleNr" />
+        <FieldValue Value="ABC123" />
+        <FieldFormat Value="an..35" />
+      </Field>
+    </Record>
+</Records>
