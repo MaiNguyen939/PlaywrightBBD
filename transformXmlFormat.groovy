@@ -1,5 +1,4 @@
 import groovy.xml.MarkupBuilder
-import groovy.xml.XmlUtil
 
 def processData(message) {
     def body = message.getBody(java.lang.String)
@@ -18,16 +17,7 @@ def processData(message) {
                     def fieldName  = field.FieldName.@Value.text()
                     def fieldValue = field.FieldValue.@Value.text()
 
-                    "${fieldName}" {
-                        mkp.yield(fieldValue)
-
-                        field.children().each { child ->
-                            def childName = child.name()
-                            if (childName != "FieldName" && childName != "FieldValue") {
-                                "${childName}"(Value: child.@Value.text())
-                            }
-                        }
-                    }
+                    "${fieldName}"(fieldValue)
                 }
             }
         }
