@@ -1,7 +1,4 @@
-import com.sap.gateway.ip.core.customdev.util.Message
-import groovy.xml.XmlUtil
-
-def Message processData(Message message) {
+def processData(message) {
     def body = message.getBody(String)
 
     def inputXml = new XmlSlurper().parseText(body)
