@@ -1,6 +1,8 @@
+import groovy.xml.MarkupBuilder
 import groovy.xml.XmlUtil
 
-def inputXml = '''<Records>
+def inputXml = '''\
+<Records>
     <Record Type="HDR">
       <Field>
         <FieldName Value="MessageType" />
@@ -40,28 +42,26 @@ def inputXml = '''<Records>
 
 def parsed = new XmlSlurper().parseText(inputXml)
 def writer = new StringWriter()
-def builder = new groovy.xml.MarkupBuilder(writer)
-
-builder.doubleQuotes = true
-builder.mkp.xmlDeclaration(version: "1.0", encoding: "UTF-8")
+def builder = new MarkupBuilder(writer)
+builder.setDoubleQuotes(true)
 
 builder.Records {
     parsed.Record.each { record ->
         def recordType = record.@Type.text()
 
-        "$recordType" {
+        "${recordType}" {
             record.Field.each { field ->
-                def fieldName = field.FieldName.@Value.text()
+                def fieldName  = field.FieldName.@Value.text()
                 def fieldValue = field.FieldValue.@Value.text()
 
-                "$fieldName" {
+                "${fieldName}" {
                     mkp.yield(fieldValue)
 
-                    if (field.FieldFormat.size() > 0) {
-                        FieldFormat(Value: field.FieldFormat.@Value.text())
-                    }
-                    if (field.DateFormat.size() > 0) {
-                        DateFormat(Value: field.DateFormat.@Value.text())
+                    field.children().each { child ->
+                        def childName = child.name()
+                        if (childName != "FieldName" && childName != "FieldValue") {
+                            "${childName}"(Value: child.@Value.text())
+                        }
                     }
                 }
             }
@@ -69,4 +69,8 @@ builder.Records {
     }
 }
 
+println "===== INPUT ====="
+println inputXml
+println ""
+println "===== OUTPUT ====="
 println XmlUtil.serialize(writer.toString())
