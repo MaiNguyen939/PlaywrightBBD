@@ -3,6 +3,9 @@ class RegexUtils {
     static DASH_TWO_DIGITS_GLOBAL = /-\d{2}/g;
     static DASH_TWO_DIGITS_EXACT = /^-\d{2}$/;
 
+    static RFF_ABO_NUMBER = /RFF\+ABO:(\d+)'/;
+    static RFF_ABO_NUMBER_GLOBAL = /RFF\+ABO:(\d+)'/g;
+
     static matchDashTwoDigits(text) {
         return text.match(this.DASH_TWO_DIGITS);
     }
@@ -22,6 +25,25 @@ class RegexUtils {
 
     static replaceDashTwoDigits(text, replacement) {
         return text.replace(this.DASH_TWO_DIGITS_GLOBAL, replacement);
+    }
+
+    static extractRffAboNumber(text) {
+        const match = text.match(this.RFF_ABO_NUMBER);
+        return match ? match[1] : null;
+    }
+
+    static extractAllRffAboNumbers(text) {
+        const results = [];
+        let match;
+        const regex = new RegExp(this.RFF_ABO_NUMBER_GLOBAL.source, 'g');
+        while ((match = regex.exec(text)) !== null) {
+            results.push(match[1]);
+        }
+        return results;
+    }
+
+    static containsRffAboNumber(text) {
+        return this.RFF_ABO_NUMBER.test(text);
     }
 }
 
