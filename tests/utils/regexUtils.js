@@ -6,6 +6,8 @@ class RegexUtils {
     static RFF_ABO_NUMBER = /RFF\+ABO:(\d+)'/;
     static RFF_ABO_NUMBER_GLOBAL = /RFF\+ABO:(\d+)'/g;
 
+    static UNA_SEGMENT = /UNA:\+\.\? '/;
+
     static matchDashTwoDigits(text) {
         return text.match(this.DASH_TWO_DIGITS);
     }
@@ -44,6 +46,14 @@ class RegexUtils {
 
     static containsRffAboNumber(text) {
         return this.RFF_ABO_NUMBER.test(text);
+    }
+
+    static matchUnaSegment(text) {
+        return text.match(this.UNA_SEGMENT);
+    }
+
+    static containsUnaSegment(text) {
+        return this.UNA_SEGMENT.test(text);
     }
 }
 
